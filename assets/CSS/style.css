@@ -12,7 +12,7 @@ body {
   min-height: 1200px;
 }
 nav {
-  background: #eaebec;
+  background: #f2f9ee;
   min-height: 85px;
 }
 
@@ -31,7 +31,7 @@ section{
     text-align: center;
 }
 section:nth-child(odd){
-    background-color:#fafafa;
+    background-color:#f2f9ee;
     color:#333;
     padding-top:110px;
 }
@@ -52,3 +52,14 @@ section:nth-child(4){
         background-attachment: scroll;
     }
 }
+#section {
+    padding: 0;
+}
+  #map {
+    height: 380px;
+  }
+  html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
