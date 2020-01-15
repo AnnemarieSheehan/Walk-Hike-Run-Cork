@@ -35,7 +35,7 @@ $(document).ready(function () {
 
 function initMap() {
     var map = new google.maps.Map(document.getElementById("map"), {
-        zoom: 12,
+        zoom: 9,
         center: {
             lat: 51.903614,
             lng: -8.468399
@@ -47,14 +47,24 @@ function initMap() {
     var locations = [
         { lat: 51.7500, lng: -9.5522 },
         { lat: 51.7059, lng: -8.5222 },
-        { lat: 51.8299, lng: -8.0098 }
+        { lat: 51.8299, lng: -8.0098 },
+
     ];
+
+      
+
 
     var markers = locations.map(function(location, i) {
         return new google.maps.Marker({
             position: location,
             label: labels[i % labels.length]
         });
+
+        var infoWindow = new google.maps.InfoWindow ({
+            content: '<h1>Information Here<h1>'
+        });
+    
+
     });
 
     var markerCluster = new MarkerClusterer(map, markers, { imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m' });
