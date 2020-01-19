@@ -31,41 +31,96 @@ $(document).ready(function () {
         stickyToggle(sticky, stickyWrapper, $(window));
     });
 });
-//google maps
+//google maps 
 
-function initMap() {
-    var map = new google.maps.Map(document.getElementById("map"), {
-        zoom: 9,
-        center: {
+// set location variables 
+var map;
+        var InforObj = [];
+        var centerCords = {
             lat: 51.903614,
             lng: -8.468399
+        };
+        var markersOnMap = [{
+                placeName: "Glengarrif Nature Reserve",
+                LatLng: [{
+                    lat: 51.7500,
+                    lng: -9.5522
+                }]
+            },
+            {
+                placeName: "Charles Fort, Kinsale",
+                LatLng: [{
+                    lat: 51.706051,
+                    lng: 8.522501
+                }]
+            },
+            {
+                placeName: "Ballycotton Cliff Walk",
+                LatLng: [{
+                    lat: 51.8299,
+                    lng: -8.0098
+                }]
+            },
+            {
+                placeName: "Gougane Barra",
+                LatLng: [{
+                    lat: 51.8394,
+                    lng: -9.3148
+                }]
+            },
+            {
+                placeName: "Cork City", 
+                LatLng: [{
+                    lat: 51.903614,
+                    lng: 8.468399
+                }]
+            }
+        ];
+ 
+        window.onload = function () {
+            initMap();
+        };
+ 
+        function addMarkerInfo() {
+            for (var i = 0; i < markersOnMap.length; i++) {
+                var contentString = '<div id="content"><h1>' + markersOnMap[i].placeName +
+                    '</h1><p>Lorem ipsum dolor sit amet, vix mutat posse suscipit id, vel ea tantas omittam detraxit.</p></div>';
+ 
+                const marker = new google.maps.Marker({
+                    position: markersOnMap[i].LatLng[0],
+                    map: map
+                });
+ 
+                const infowindow = new google.maps.InfoWindow({
+                    content: contentString,
+                    maxWidth: 200
+                });
+ 
+                marker.addListener('click', function () {
+                    closeOtherInfo();
+                    infowindow.open(marker.get('map'), marker);
+                    InforObj[0] = infowindow;
+                });
+                
+            }
         }
-    });
-
-    var labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-
-    var locations = [
-        { lat: 51.7500, lng: -9.5522 },
-        { lat: 51.7059, lng: -8.5222 },
-        { lat: 51.8299, lng: -8.0098 },
-
-    ];
-
-      
-
-
-    var markers = locations.map(function(location, i) {
-        return new google.maps.Marker({
-            position: location,
-            label: labels[i % labels.length]
-        });
-
-        var infoWindow = new google.maps.InfoWindow ({
-            content: '<h1>Information Here<h1>'
-        });
-    
-
-    });
-
-    var markerCluster = new MarkerClusterer(map, markers, { imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m' });
-}
+ 
+        function closeOtherInfo() {
+            if (InforObj.length > 0) {
+                /* detach the info-window from the marker ... undocumented in the API docs */
+                InforObj[0].set("marker", null);
+                /* and close it */
+                InforObj[0].close();
+                /* blank the array */
+                InforObj.length = 0;
+            }
+        }
+ 
+        function initMap() {
+            map = new google.maps.Map(document.getElementById('map'), {
+                zoom: 8,
+                center: centerCords
+            });
+            addMarkerInfo();
+        }
+ 
