@@ -50,8 +50,8 @@ var map;
             {
                 placeName: "Charles Fort, Kinsale",
                 LatLng: [{
-                    lat: 51.706051,
-                    lng: 8.522501
+                    lat: 51.71308,
+                    lng: -8.522501
                 }]
             },
             {
@@ -62,7 +62,7 @@ var map;
                 }]
             },
             {
-                placeName: "Gougane Barra",
+                placeName: "Gougane Barra", 
                 LatLng: [{
                     lat: 51.8394,
                     lng: -9.3148
@@ -72,7 +72,7 @@ var map;
                 placeName: "Cork City", 
                 LatLng: [{
                     lat: 51.903614,
-                    lng: 8.468399
+                    lng: -8.468399
                 }]
             }
         ];
@@ -84,7 +84,7 @@ var map;
         function addMarkerInfo() {
             for (var i = 0; i < markersOnMap.length; i++) {
                 var contentString = '<div id="content"><h1>' + markersOnMap[i].placeName +
-                    '</h1><p>Lorem ipsum dolor sit amet, vix mutat posse suscipit id, vel ea tantas omittam detraxit.</p></div>';
+                    '</h1><p>See our Walks page for further details</p></div>';
  
                 const marker = new google.maps.Marker({
                     position: markersOnMap[i].LatLng[0],
@@ -107,11 +107,8 @@ var map;
  
         function closeOtherInfo() {
             if (InforObj.length > 0) {
-                /* detach the info-window from the marker ... undocumented in the API docs */
                 InforObj[0].set("marker", null);
-                /* and close it */
                 InforObj[0].close();
-                /* blank the array */
                 InforObj.length = 0;
             }
         }
