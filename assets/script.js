@@ -42,6 +42,7 @@ var map;
         };
         var markersOnMap = [{
                 placeName: "Glengarrif Nature Reserve",
+                description: "One of Corks most famous parks, Glengarrif can be visited en route to the Bearra Peninsula",
                 LatLng: [{
                     lat: 51.7500,
                     lng: -9.5522
@@ -49,6 +50,7 @@ var map;
             },
             {
                 placeName: "Charles Fort, Kinsale",
+                description: "The path that runs from the fort out along the coast line is perfect for hiking or running. The reward of lunch in any one of Kinsale's excellent eaterey's then awaits!",
                 LatLng: [{
                     lat: 51.71308,
                     lng: -8.522501
@@ -56,6 +58,7 @@ var map;
             },
             {
                 placeName: "Ballycotton Cliff Walk",
+                description: "This cliff walk is a breath of fresh air! With stunning views that must be seen to be believed",
                 LatLng: [{
                     lat: 51.8299,
                     lng: -8.0098
@@ -63,6 +66,7 @@ var map;
             },
             {
                 placeName: "Gougane Barra", 
+                description: "This place of stunning natural beauty is a must see destination in Cork",
                 LatLng: [{
                     lat: 51.8394,
                     lng: -9.3148
@@ -70,6 +74,7 @@ var map;
             },
             {
                 placeName: "Cork City", 
+                description: "The city centre has some gorgeous off road and historical walks, take a break from work or meetings!",
                 LatLng: [{
                     lat: 51.903614,
                     lng: -8.468399
@@ -82,9 +87,11 @@ var map;
         };
  
         function addMarkerInfo() {
+            
             for (var i = 0; i < markersOnMap.length; i++) {
                 var contentString = '<div id="content"><h1>' + markersOnMap[i].placeName +
-                    '</h1><p>See our Walks page for further details</p></div>';
+                
+                    '</h1><p>'+ markersOnMap[i].description +' <a href="../walks.html">See our Walks page for further details</a>r</p></div>';
  
                 const marker = new google.maps.Marker({
                     position: markersOnMap[i].LatLng[0],
