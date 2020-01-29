@@ -31,13 +31,14 @@ The site was arranged as a single scrolling page with links throughout that allo
 ### Surface
 I chose a light colour scheme with striking photographs to make the site striking and dramatic to draw in the user. I also choose clean lines and clearly separted sections to make for easy reading. The colour theme is soothing and inviting to encourge the use to stay on the site to find more information. 
 
-All the wireframe files can be found in the images folder of the project. Wireframes were done for mobile, Ipad pro and desktop. [Website Mockup](https://github.com/AnnemarieSheehan/First-Milestone-Project/blob/master/assets/Images/Website-Mockup.png) [Ipad Pro](https://github.com/AnnemarieSheehan/First-Milestone-Project/blob/master/assets/Images/Ipad-pro.png) and [Mobile](https://github.com/AnnemarieSheehan/First-Milestone-Project/blob/master/assets/Images/mobilemockup.png). 
+All the wireframe files can be found in the images folder of the project. Wireframes were done for mobile, Ipad pro and desktop. LIST FILE LOCATIONS HERE
 
 ## Features
 
 ### Existing Features
 I added a fixed image background that has a parralax effect. 
 I used java script for the google map and the pin and click on effects of same 
+I used java script for the sticky navbar function
 I used Bootstrap Grid for layout
 
 
@@ -63,10 +64,10 @@ If time had not been an issue I would have included a search functionality to al
 - Google Chrome developer tools
 - Peer Code Review on Slack
 
-1. W3Schools Validator. I pasted the HTML from my project into the validator and got 8 warnings. These included spaces in image names, errors in the contact form where names did not match ID's as well as some `h1` warnings. I amended the errors and reposted the code. I then pasted the CSS code and ran the validation again, this time finding 8 errors although they all related to a one duplicate line which, when removed showed no errors. 
-1. To check for errors using google chrome developer tools, I right clicked on my finished website and chose inspect. The only error showing related to a cookie, the message was *A cookie associated with a cross-site resource at [Fontawesome](http://fontawesome.com/) was set without the `SameSite` attribute. A future release of Chrome will only deliver cookies with cross-site requests if they are set with `SameSite=None` and `Secure`. As I don't fully understand this, further investigation is required*.
-1. I posted my project in the Peer Code Review channel on Slack and got detailed feedback with multiple suggestions and corrections. For example fixing file names which had capital letters, removing unused classes and code, optimising images and much more. I was also guided to make my navbar sticky. I tried this but did not like the look as the navbar is transparent and the logo was showing ontop of the phot of Ashling when you moved down the page. To fix this I got some guidance on Slack and was shown how to make the logo dissapear using some javascript code (acknowledgements below). 
-1. Some of my file names are using capitals which is not correct, however, when I tried to fix them and push the changes to Github, the links were not working, therefore I have left them as is for this project. I need to be aware in my next project of creating correct file names from the begining to avoid this problem again. 
+1. W3Schools Validator. 
+1. To check for errors using google chrome developer tools, I right clicked on my finished website and chose inspect. 
+1. I posted my project in the Peer Code Review channel on Slack 
+1. 
 
 ## Deployment 
  The site was deployed to github pages from Visual Studio Code as follows:
