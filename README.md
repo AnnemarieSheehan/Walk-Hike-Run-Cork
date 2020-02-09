@@ -2,9 +2,9 @@
 # Walk, Hike, Run Cork 
 
 
-The website can be found [here](https://annemariesheehan.github....).
+The website can be found [here](https://annemariesheehan.github.io/Walk-Hike-Run-Cork/index.html).
 
-![Website Snippet](https://github)
+![Website Snippet](https://annemariesheehan.github.io/Walk-Hike-Run-Cork/index.html)
 
 
 The idea for the website came from a group of friends who like to know what areas they can run or hike in when they visit a county. The website was created to allow users to learn about the best trails for running, hiking or walking in Co. Cork. The site will be expanded over time to include other counties and eventually the island of Ireland. 
