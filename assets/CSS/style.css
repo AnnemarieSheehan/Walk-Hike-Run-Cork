@@ -18,7 +18,7 @@ nav {
 
 
 
-/*Parallax*/
+/*Parallax design position and size*/
 body{
     width:100%;
     margin:0;
@@ -57,11 +57,11 @@ section:nth-child(4){
 }
 
 h1 {
-  color: aqua;
+  color: rgb(0, 204, 204);
 }
 
 h2 {
-  color: aqua;
+  color: rgb(0, 204, 204);
   font-weight: bold;
 }
 
