@@ -91,7 +91,7 @@ var map;
             for (var i = 0; i < markersOnMap.length; i++) {
                 var contentString = '<div id="content"><h1>' + markersOnMap[i].placeName +
                 
-                    '</h1><p>'+ markersOnMap[i].description +' <a href="/walks.html">See our Walks page for further details</a>r</p></div>';
+                    '</h1><p>'+ markersOnMap[i].description +' <a href="https://annemariesheehan.github.io/Walk-Hike-Run-Cork/walks.html">See our Walks page for further details</a>r</p></div>';
  
                 const marker = new google.maps.Marker({
                     position: markersOnMap[i].LatLng[0],
