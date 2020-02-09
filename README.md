@@ -68,6 +68,7 @@ If time had not been an issue I would have included a search functionality to al
 1. To check for errors using google chrome developer tools, I right clicked on my finished website and chose inspect. 
 1. I posted my project in the Peer Code Review channel on Slack 
 1. 
+1. I tested my javascript in jshint.com, no errors were found 
 
 ## Deployment 
  The site was deployed to github pages from Visual Studio Code as follows:
