@@ -12,7 +12,7 @@
     
   </head>
 <body>
-  
+
   <header >
     <!--sticky navbar -->
     <div style="height: 40px; background: #f2f9ee"></div>
@@ -99,11 +99,61 @@
 <div id="map"></div>
 
 
-<footer class="footer">
-  <div class="container">
-    <span class="text-muted">The information on this site has been put together by Annemarie Sheehan based on personal experience and general research.</span>
-  </div>
-</footer>
+
+<!--bootstrap contact form-->
+
+
+<section class="container-fluid form mt-4" id="contact">
+  <form action="#" method="post">
+    <h2 class="text-center">Contact Form</h2>
+    <h6>Let us know if there are any walks you'd like to see here, or send us details on walks you've done and would recommend, simply fill in the form below</h6>
+    <div class="row">
+      <div class="col-md-4">
+        <label for="form-name">Name</label>
+        <input type="text" class="form-control" id="form-name" placeholder="Enter name" name="name required">
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="col-md-4">
+        <label for="email">Email</label>
+        <input type="email" class="form-control" name="email required" id="email" placeholder="email address">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="form-group">
+          <label for="comment">Information</label>
+          <textarea class="form-control" rows="5" id="comment" name="text required"></textarea>
+        </div>
+        <br>
+      </div>
+    </div>
+    <footer class="mb-4">
+      <div class="container-fluid footer">
+        <div class="row text-center">
+          <div class="col-12 col-md-4">
+            <a class="footer-brand" href="#">
+              <img id="footer-image" src="assets/Images/logo.png" alt="logo">
+            </a>
+          </div>
+          <div class="col-12 col-md-4">
+            <p class="lead">Walk, Hike, Run Cork</p>
+            <p>If you would like to send us details of your favourite place to run, walk or hike in Cork, please fill in the contact form above.</p>
+            
+            
+          </div>
+          
+          </div>
+  
+  
+        </div>
+      
+    </footer>
+
+    
+
+
     
 
     <!-- Optional JavaScript -->
