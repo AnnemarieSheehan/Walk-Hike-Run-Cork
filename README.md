@@ -64,9 +64,10 @@ If time had not been an issue I would have included a search functionality to al
 - Google Chrome developer tools
 - Peer Code Review on Slack
 
-1. W3Schools Validator. 
+1. W3Schools Validator for CSS, no errors found 
+1. W3Schools Validator for HTML, errors found with body tag and warnings relating to section headers were all corrected. 
 1. To check for errors using google chrome developer tools, I right clicked on my finished website and chose inspect. 
-1. I posted my project in the Peer Code Review channel on Slack 
+1. I posted my project in the Peer Code Review channel on Slack and received feedback on broken image links as well as guidance around contrast issues with heading colours. 
 1. 
 1. I tested my javascript in jshint.com, no errors were found 
 
