@@ -109,38 +109,101 @@
     <h3>See our map below for the location of each walk</h3>
   </section>
 
-  <div id="map"></div>
+
+  <div id="map">
+    
+  </div>
 
 
 
   <!--bootstrap contact form so users can send feedback or send details of their own experiences-->
 
-  <div class="container" id="contact">
-    <h2 class="text-center">Contact Form</h2>
-    <p class="text-center">Let us know about walks you would like to see featured here.</p><br 
-    <form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
+  <div class="container">
+
     <div class="row">
-      <div class="col">
-        <label for="email">Email</label>
-        <input type="text" class="form-control" id="email" placeholder="Enter email" name="email">
-      </div>
-      <div class="col">
-        <label for="name">Name</label>
-        <input type="password" class="form-control" placeholder="Enter Name" name="pswd">
-      </div>
-    </div>
-    <div class="row">
-      <div class="col">
-        <label for="comment">Information</label>
-        <textarea class="form-control" rows="5" id="comment" name="text required"></textarea>
-      </div>
+
+        <div class="col-xl-8 offset-xl-2 py-5">
+
+            <h1>Contact Us</h1>
+
+            <p class="lead">Tell us about your experiences or walks and hikes you'd like to see featured here.</p>
+
+            <!-- We're going to place the form here in the next step -->
+            <form>
+              <form id="contact-form" method="post" action="contact.php" role="form">
+
+                <div class="message"></div>
+            
+                <div class="control">
+            
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="form_name">Firstname *</label>
+                                <input id="form_name" type="text" name="name" class="form-control" placeholder="Enter your firstname *" required="required" data-error="Firstname is required.">
+                                <div class="help-block with-errors"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="form_lastname">Lastname *</label>
+                                <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Enter your lastname *" required="required" data-error="Lastname is required.">
+                                <div class="help-block with-errors"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="form_email">Email *</label>
+                                <input id="form_email" type="email" name="email" class="form-control" placeholder="Enter your email *" required="required" data-error="Valid email is required.">
+                                <div class="help-block with-errors"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="form_need">What kind of walk/hike *</label>
+                                <select id="form_need" name="need" class="form-control" required="required" data-error="What kind of walk or hike.">
+                                    <option value=""></option>
+                                    <option value="Coastal Walks">Coastal Walks</option>
+                                    <option value="Nature Reserves or Parks">Nature Reserves or Parks</option>
+                                    <option value="Cork City Walks">Cork City Walks</option>
+                                    <option value="Other">Other</option>
+                                </select>
+                                <div class="help-block with-errors"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <label for="form_message">Message *</label>
+                                <textarea id="form_message" name="message" class="form-control" placeholder="Send details of walks you've been on or would like to see featured *" rows="4" required="required" data-error="Please, leave us a message."></textarea>
+                                <div class="help-block with-errors"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <input type="submit" class="btn btn-success btn-send" value="Send message">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <p class="text-muted">
+                                <strong>*</strong> These fields are required
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            
+            </form>
+
+            </form> 
+
+        </div>
 
     </div>
 
-    <button type="submit" class="btn btn-primary mt-3">Submit</button>
-    </form>
-  </div>
-
+</div>
 
 
 
