@@ -4,8 +4,6 @@
 
 The website can be found [here](https://annemariesheehan.github.io/Walk-Hike-Run-Cork/index.html).
 
-![Website Snippet](https://annemariesheehan.github.io/Walk-Hike-Run-Cork/index.html)
-
 
 The idea for the website came from a group of friends who like to know what areas they can run or hike in when they visit a county. The website was created to allow users to learn about the best trails for running, hiking or walking in Co. Cork. The site will be expanded over time to include other counties and eventually the island of Ireland. 
 
@@ -71,6 +69,7 @@ If time had not been an issue I would have included a search functionality to al
 1. I posted my project in the Peer Code Review channel on Slack and received feedback on broken image links as well as guidance around contrast issues with heading colours. 
 1. 
 1. I tested my javascript in jshint.com, no errors were found 
+1. Update. Initialy my site worked very well, the map displayed, the pins displayed along with the embedded information in them but a few days ago the map stopped displaying. Despite seeking help from Slack, Tutor support and my mentor, no one has been able to resolve the issue which seems to be inline code applied by google themselves - overflow: hidden;. I have tried overwriting this through CSS and Javascript, neither of which have worked for me. I am now left with a website where the map is not displaying
 
 ## Deployment 
  The site was deployed to github pages from Visual Studio Code as follows:
