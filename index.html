@@ -62,57 +62,80 @@
   <!--Parallox Section Used to create a feeling of wanting to find out more when looking at the page-->
 
   <section></section>
-  <section>
-    <h1>See the very best of Cork on foot!</h1>
-    <p>Cork has some of Ireland's finest coastline and natural beauty so make the most of your visit, put on your hikng
-      boots or runners and get outdoors. </p>
-    <p> Seaside towns, rugged cliff walks and green overgrown paths make the Rebel County the perfect spot to stretch
-      your legs.</p>
-    <p>We give you reviews of some of the more popular places as well as a hidden gem or two! Walking, hiking or running
-      are all excellent ways to see the surrounding countryside - Enjoy!</p>
+  <div class="row">
+    <div class="col-12">
+      <section>
+        <h1>See the very best of Cork on foot!</h1>
+        <p>Cork has some of Ireland's finest coastline and natural beauty so make the most of your visit, put on your
+          hikng
+          boots or runners and get outdoors. </p>
+        <p> Seaside towns, rugged cliff walks and green overgrown paths make the Rebel County the perfect spot to
+          stretch
+          your legs.</p>
+        <p>We give you reviews of some of the more popular places as well as a hidden gem or two! Walking, hiking or
+          running
+          are all excellent ways to see the surrounding countryside - Enjoy!</p>
 
-  </section>
+      </section>
+    </div>
+  </div>
+
   <section></section>
   <!--Information Cards giving details of some of the better walks using images to keep users on the site-->
-  <section>
-    <h1>Our recomendations</h1>
-    <div class="card-deck">
-      <div class="card">
-        <img src="./assets/Images/charlesfort.JPG" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Coastal Walks</h5>
-          <p class="card-text">Cork has some stuning coastline, a treat to walk along at any time of the year. <a
-              href="walks.html">Click here</a>to find some of our recommended coastal walks.</p>
+
+  <div class="row">
+    <div class="col-12">
+      <section>
+        <h1>Our recomendations</h1>
+        <div class="card-deck">
+          <div class="card">
+            <img src="./assets/Images/charlesfort.JPG" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Coastal Walks</h5>
+              <p class="card-text">Cork has some stuning coastline, a treat to walk along at any time of the year. <a
+                  href="walks.html">Click here</a>to find some of our recommended coastal walks.</p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="./assets/Images/gouganbara.JPG" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Nature Reserves & Parks</h5>
+              <p class="card-text">If you're looking to spend some time in Nature, Corks parks and nature reserves are
+                second to none, offering peace and quiet, beautiful waterfalls, stunning scenery. <a
+                  href="walks.html">Find
+                  out more here.</a></p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="./assets/Images/corkcity.JPG" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Cork City Walks</h5>
+              <p class="card-text">Even within the City itself, Cork offers some gorgeous escapes from the busy streets.
+                <a href="walks.html">Have a look at our top tips here</a></p>
+            </div>
+          </div>
         </div>
-      </div>
-      <div class="card">
-        <img src="./assets/Images/gouganbara.JPG" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Nature Reserves & Parks</h5>
-          <p class="card-text">If you're looking to spend some time in Nature, Corks parks and nature reserves are
-            second to none, offering peace and quiet, beautiful waterfalls, stunning scenery. <a href="walks.html">Find
-              out more here.</a></p>
-        </div>
-      </div>
-      <div class="card">
-        <img src="./assets/Images/corkcity.JPG" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Cork City Walks</h5>
-          <p class="card-text">Even within the City itself, Cork offers some gorgeous escapes from the busy streets. <a
-              href="walks.html">Have a look at our top tips here</a></p>
-        </div>
-      </div>
+      </section>
     </div>
-  </section>
-  <section>
-    <div id="space"></div>
-    <h3>See our map below for the location of each walk</h3>
-  </section>
-
-
-  <div id="map">
-    
   </div>
+  <div class="row">
+    <div class="col-12">
+      <section>
+        <div id="space"></div>
+        <h3>See our map below for the location of each walk</h3>
+      </section>
+    </div>
+  </div>
+  
+
+<div class="row">
+  <div class="col-12">
+<div id="map"></div>
+  </div>
+</div>
+
+
+
 
 
 
@@ -122,88 +145,94 @@
 
     <div class="row">
 
-        <div class="col-xl-8 offset-xl-2 py-5">
+      <div class="col-xl-8 offset-xl-2 py-5">
 
-            <h1>Contact Us</h1>
+        <h1>Contact Us</h1>
 
-            <p class="lead">Tell us about your experiences or walks and hikes you'd like to see featured here.</p>
+        <p class="lead">Tell us about your experiences or walks and hikes you'd like to see featured here.</p>
 
-            <!-- We're going to place the form here in the next step -->
-            <form>
-              <form id="contact-form" method="post" action="contact.php" role="form">
+        <!-- We're going to place the form here in the next step -->
+        <form>
+          <form id="contact-form" method="post" action="contact.php" role="form">
 
-                <div class="message"></div>
-            
-                <div class="control">
-            
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="form-group">
-                                <label for="form_name">Firstname *</label>
-                                <input id="form_name" type="text" name="name" class="form-control" placeholder="Enter your firstname *" required="required" data-error="Firstname is required.">
-                                <div class="help-block with-errors"></div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="form-group">
-                                <label for="form_lastname">Lastname *</label>
-                                <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Enter your lastname *" required="required" data-error="Lastname is required.">
-                                <div class="help-block with-errors"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="form-group">
-                                <label for="form_email">Email *</label>
-                                <input id="form_email" type="email" name="email" class="form-control" placeholder="Enter your email *" required="required" data-error="Valid email is required.">
-                                <div class="help-block with-errors"></div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="form-group">
-                                <label for="form_need">What kind of walk/hike *</label>
-                                <select id="form_need" name="need" class="form-control" required="required" data-error="What kind of walk or hike.">
-                                    <option value=""></option>
-                                    <option value="Coastal Walks">Coastal Walks</option>
-                                    <option value="Nature Reserves or Parks">Nature Reserves or Parks</option>
-                                    <option value="Cork City Walks">Cork City Walks</option>
-                                    <option value="Other">Other</option>
-                                </select>
-                                <div class="help-block with-errors"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="form-group">
-                                <label for="form_message">Message *</label>
-                                <textarea id="form_message" name="message" class="form-control" placeholder="Send details of walks you've been on or would like to see featured *" rows="4" required="required" data-error="Please, leave us a message."></textarea>
-                                <div class="help-block with-errors"></div>
-                            </div>
-                        </div>
-                        <div class="col-md-12">
-                            <input type="submit" class="btn btn-success btn-send" value="Send message">
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-12">
-                            <p class="text-muted">
-                                <strong>*</strong> These fields are required
-                            </p>
-                        </div>
-                    </div>
+            <div class="message"></div>
+
+            <div class="control">
+
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="form_name">Firstname *</label>
+                    <input id="form_name" type="text" name="name" class="form-control"
+                      placeholder="Enter your firstname *" required="required" data-error="Firstname is required.">
+                    <div class="help-block with-errors"></div>
+                  </div>
                 </div>
-            
-            </form>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="form_lastname">Lastname *</label>
+                    <input id="form_lastname" type="text" name="surname" class="form-control"
+                      placeholder="Enter your lastname *" required="required" data-error="Lastname is required.">
+                    <div class="help-block with-errors"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="form_email">Email *</label>
+                    <input id="form_email" type="email" name="email" class="form-control"
+                      placeholder="Enter your email *" required="required" data-error="Valid email is required.">
+                    <div class="help-block with-errors"></div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="form_need">What kind of walk/hike *</label>
+                    <select id="form_need" name="need" class="form-control" required="required"
+                      data-error="What kind of walk or hike.">
+                      <option value=""></option>
+                      <option value="Coastal Walks">Coastal Walks</option>
+                      <option value="Nature Reserves or Parks">Nature Reserves or Parks</option>
+                      <option value="Cork City Walks">Cork City Walks</option>
+                      <option value="Other">Other</option>
+                    </select>
+                    <div class="help-block with-errors"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="form-group">
+                    <label for="form_message">Message *</label>
+                    <textarea id="form_message" name="message" class="form-control"
+                      placeholder="Send details of walks you've been on or would like to see featured *" rows="4"
+                      required="required" data-error="Please, leave us a message."></textarea>
+                    <div class="help-block with-errors"></div>
+                  </div>
+                </div>
+                <div class="col-md-12">
+                  <input type="submit" class="btn btn-success btn-send" value="Send message">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <p class="text-muted">
+                    <strong>*</strong> These fields are required
+                  </p>
+                </div>
+              </div>
+            </div>
 
-            </form> 
+          </form>
 
-        </div>
+        </form>
+
+      </div>
 
     </div>
 
-</div>
+  </div>
 
 
 
@@ -232,5 +261,7 @@
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDk5UZCRPGUn7i5DNsDpRSfM2cFSp_seeI&callback=initMap"></script>
   <script src="assets/script.js"></script>
 </body>
+
+
 
 </html>

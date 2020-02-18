@@ -32,6 +32,7 @@ $(document).ready(function () {
 });
 //google maps 
 
+
 // set location variables 
 var map;
 var InforObj = [];
@@ -123,9 +124,13 @@ function initMap() {
     map = new google.maps.Map(document.getElementById('map'), {
         zoom: 8,
         center: centerCords
+       
+        
     });
     addMarkerInfo();
 }
+
+
 
 
 function validateForm() {
@@ -136,3 +141,4 @@ function validateForm() {
     }
 }
 
+$("#map").css("position","fixed !important");
