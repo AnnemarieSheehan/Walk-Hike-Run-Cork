@@ -88,7 +88,7 @@ h2 {
   position: fixed !important; 
   height: 100% !important;
   width: 100% !important;
-  overflow: auto !important;
+  overflow: visible !important;
 }
 
 img {

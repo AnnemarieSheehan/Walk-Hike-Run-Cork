@@ -29,7 +29,7 @@ The site was arranged as a single scrolling page with links throughout that allo
 ### Surface
 I chose a light colour scheme with striking photographs to make the site striking and dramatic to draw in the user. I also choose clean lines and clearly separted sections to make for easy reading. The colour theme is soothing and inviting to encourge the use to stay on the site to find more information. 
 
-All the wireframe files can be found in the images folder of the project. Wireframes were done for mobile, Ipad pro and desktop. LIST FILE LOCATIONS HERE
+All the wireframe files can be found in the images folder of the project. Wireframes were done for mobile, Ipad pro and desktop. 
 
 ## Features
 
@@ -66,10 +66,10 @@ If time had not been an issue I would have included a search functionality to al
 1. W3Schools Validator for CSS, no errors found 
 1. W3Schools Validator for HTML, errors found with body tag and warnings relating to section headers were all corrected. 
 1. To check for errors using google chrome developer tools, I right clicked on my finished website and chose inspect. Initally broken links to photos were found and fixed.  
-1. I posted my project in the Peer Code Review channel on Slack and received feedback on broken image links as well as guidance around contrast issues with heading colours. 
+1. I posted my project in the Peer Code Review channel on Slack and received feedback on broken image links as well as guidance around contrast issues with heading colours. These were all fixed. 
 1. 
 1. I tested my javascript in jshint.com, no errors were found 
-1. Update. Initialy my site worked very well, the map displayed, the pins displayed along with the embedded information in them but a few days ago the map stopped displaying. Despite seeking help from Slack, Tutor support and my mentor, no one has been able to resolve the issue which seems to be inline code applied by google themselves - overflow: hidden;. I have tried overwriting this through CSS and Javascript, neither of which have worked for me. I am now left with a website where the map is not displaying
+1. Update 18th February. Initialy my site worked very well, the map displayed, the pins displayed along with the embedded information in them but a few days ago the map stopped displaying. Despite seeking help from Slack, Tutor support and my mentor, no one has been able to resolve the issue which seems to be inline code applied by google themselves - overflow: hidden;. I have tried overwriting this through CSS and Javascript, neither of which have worked for me. I am now left with a website where the map is not displaying.
 
 ## Deployment 
  The site was deployed to github pages from Visual Studio Code as follows:
@@ -91,12 +91,12 @@ If time had not been an issue I would have included a search functionality to al
 ## Credits
 
 ## Content 
-The content came from myself, most of the photos are my own origianls. The description of the parks and trails are a combination of my own experiences or are taken from the areas public website example: The Ballycotton Cliff Walk + LIST AND SITE OTHER SOURCES HERE 
+The content came from myself, most of the photos are my own origianls. The description of the parks and trails are a combination of my own experiences or are taken from the areas public website example: The Ballycotton Cliff Walk photo comes from ballycotton.ie 
 
 
 
 ## Media
-Most of the images I used were obtained from my personal library with the exception of: 
+Most of the images I used were obtained from my personal library with the exception of Ballycotton Cliff Walk. 
 
 ## Code
 Inspiration for the carddecks came from [codepen](https://www.getbootstrap.com/). I adapted the code to match my own requirements and design. I also adapted various pieces of code from [W3Schools](https://www.w3schools.com/). The navbar came from [Bootstrap](https://getbootstap.com/) and was adapted for my requirements. 
