@@ -122,7 +122,7 @@ function closeOtherInfo() {
 
 function initMap() {
     map = new google.maps.Map(document.getElementById('map'), {
-        zoom: 10,
+        zoom: 8,
         center: centerCords
        
         
@@ -141,4 +141,3 @@ function validateForm() {
     }
 }
 
-$("#map").css("position","fixed !important");
