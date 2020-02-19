@@ -59,7 +59,7 @@
 
 
 
-  <!--Parallox Section Used to create a feeling of wanting to find out more when looking at the page-->
+  <!--Parallox Section Used to create a feeling of drawing in the visitor -->
 
   <section></section>
   <div class="row">
@@ -122,18 +122,12 @@
   <div class="row">
     <div class="col-12">
       <h3>See our map below for the location of each walk</h3>
-      </div>
+    </div>
   </div>
-  
-
-
-<div id="map"></div>
-  
 
 
 
-
-
+  <div id="map"></div>
 
   <!--bootstrap contact form so users can send feedback or send details of their own experiences-->
 
@@ -161,7 +155,7 @@
                     <label for="form_name">Firstname *</label>
                     <input id="form_name" type="text" name="name" class="form-control"
                       placeholder="Enter your firstname *" required="required" data-error="Firstname is required.">
-                    <div class="help-block with-errors"></div>
+                    <div class="block errors"></div>
                   </div>
                 </div>
                 <div class="col-md-6">
@@ -169,7 +163,7 @@
                     <label for="form_lastname">Lastname *</label>
                     <input id="form_lastname" type="text" name="surname" class="form-control"
                       placeholder="Enter your lastname *" required="required" data-error="Lastname is required.">
-                    <div class="help-block with-errors"></div>
+                    <div class="block errors"></div>
                   </div>
                 </div>
               </div>
@@ -179,7 +173,7 @@
                     <label for="form_email">Email *</label>
                     <input id="form_email" type="email" name="email" class="form-control"
                       placeholder="Enter your email *" required="required" data-error="Valid email is required.">
-                    <div class="help-block with-errors"></div>
+                    <div class="block errors"></div>
                   </div>
                 </div>
                 <div class="col-md-6">
@@ -193,7 +187,7 @@
                       <option value="Cork City Walks">Cork City Walks</option>
                       <option value="Other">Other</option>
                     </select>
-                    <div class="help-block with-errors"></div>
+                    <div class="block errors"></div>
                   </div>
                 </div>
               </div>
@@ -204,17 +198,17 @@
                     <textarea id="form_message" name="message" class="form-control"
                       placeholder="Send details of walks you've been on or would like to see featured *" rows="4"
                       required="required" data-error="Please, leave us a message."></textarea>
-                    <div class="help-block with-errors"></div>
+                    <div class="block errors"></div>
                   </div>
                 </div>
                 <div class="col-md-12">
-                  <button type="button" class="btn btn-primary btn-md" data-toggle="modal" data-target="#myModal">Send Message</button>
+                  <input type="submit" class="btn btn-primary btn-send" value="Send message">
                 </div>
               </div>
               <div class="row">
                 <div class="col-md-12">
                   <p class="text-muted">
-                    <strong>*</strong> These fields are required
+                    <strong>*</strong>required
                   </p>
                 </div>
               </div>
@@ -230,25 +224,6 @@
 
   </div>
 
-  <!-- Modal -->
-  <div id="myModal" class="modal fade" role="dialog">
-    <div class="modal-dialog">
-
-      <!-- Modal content-->
-      <div class="modal-content">
-        <div class="modal-header">
-          <h4 class="modal-title">Thank you for your message</h4>
-        </div>
-        <div class="modal-body">
-          <p>If you have posted a review, I will publish it in the coming days.</p>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        </div>
-      </div>
-
-    </div>
-  </div>
 
 
 
