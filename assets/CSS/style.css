@@ -75,6 +75,7 @@ section:nth-child(4) {
 /*Heading styling*/
 h1 {
   color: rgb(0, 204, 204);
+  font-weight: bold;
 }
 
 h2 {
@@ -84,6 +85,8 @@ h2 {
 
 h3 {
   text-align: center;
+  color: rgb(0, 204, 204)
+  font-weight: bold;
 }
 
 /*Google Maps*/
