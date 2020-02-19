@@ -67,9 +67,8 @@ If time had not been an issue I would have included a search functionality to al
 1. W3Schools Validator for HTML, errors found with body tag and warnings relating to section headers were all corrected. 
 1. To check for errors using google chrome developer tools, I right clicked on my finished website and chose inspect. Initally broken links to photos were found and fixed.  
 1. I posted my project in the Peer Code Review channel on Slack and received feedback on broken image links as well as guidance around contrast issues with heading colours. These were all fixed. 
-1. 
 1. I tested my javascript in jshint.com, no errors were found 
-1. Update 18th February. Initialy my site worked very well, the map displayed, the pins displayed along with the embedded information in them but a few days ago the map stopped displaying. Despite seeking help from Slack, Tutor support and my mentor, no one has been able to resolve the issue which seems to be inline code applied by google themselves - overflow: hidden;. I have tried overwriting this through CSS and Javascript, neither of which have worked for me. I am now left with a website where the map is not displaying.
+
 
 ## Deployment 
  The site was deployed to github pages from Visual Studio Code as follows:
@@ -94,7 +93,6 @@ If time had not been an issue I would have included a search functionality to al
 The content came from myself, most of the photos are my own origianls. The description of the parks and trails are a combination of my own experiences or are taken from the areas public website example: The Ballycotton Cliff Walk photo comes from ballycotton.ie 
 
 
-
 ## Media
 Most of the images I used were obtained from my personal library with the exception of Ballycotton Cliff Walk. 
 
@@ -103,4 +101,6 @@ Inspiration for the carddecks came from [codepen](https://www.getbootstrap.com/)
 
 ## Acknowledgements 
 
-Thanks to my mentor Spencer for his guidance during this process. Thanks to the Code Institute Slack community for their guidance and information and the tutors for helping with some sticky code. I took inspiration from [Bootstrap](https://getbootstap.com/), [W3Schools](https://www.w3schools.com/) and found solutions to problems on [StackOverflow](https://stackoverflow.com/), [Medium](https://www.medium.com/) and [Codepen](https://www.codepen.io/). I also used the experience I had in my previous milestone to streamline the process. 
+Thanks to my mentor Spencer for his guidance during this process. Thanks to the Code Institute Slack community for their guidance and in particular, thanks to tutor support in the last couple of days for their help with some very tricky code, in particular I'd like to acknowldge the assistance given by https://github.com/AJGreaves. 
+
+I took inspiration from [Bootstrap](https://getbootstap.com/), [W3Schools](https://www.w3schools.com/) and found solutions to problems on [StackOverflow](https://stackoverflow.com/), [Medium](https://www.medium.com/) and [Codepen](https://www.codepen.io/). I also used the experience and some code I had in my previous milestone to streamline the process. 
