@@ -68,6 +68,7 @@ If time had not been an issue I would have included a search functionality to al
 1. To check for errors using google chrome developer tools, I right clicked on my finished website and chose inspect. Initally broken links to photos were found and fixed.  
 1. I posted my project in the Peer Code Review channel on Slack and received feedback on broken image links as well as guidance around contrast issues with heading colours. These were all fixed. 
 1. I tested my javascript in jshint.com, no errors were found 
+1. In the last few days a bug was found. The google map was no longer visible. Having checked with the Slack channel, my mentor and google itself, tutor support were eventually abel to help find the issue which was being caused by an open bracket on a media query and some incorrect CSS I had implemented while trying to fix the probelm. While frustrating, the issue helped me learn the various ways to find solutions to bug fixes. 
 
 
 ## Deployment 
