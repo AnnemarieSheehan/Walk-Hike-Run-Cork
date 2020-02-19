@@ -86,6 +86,8 @@ window.onload = function () {
     initMap();
 };
 
+// Adding text links to markers and calling listener function
+
 function addMarkerInfo() {
 
     for (var i = 0; i < markersOnMap.length; i++) {
@@ -112,6 +114,7 @@ function addMarkerInfo() {
     }
 }
 
+
 function closeOtherInfo() {
     if (InforObj.length > 0) {
         InforObj[0].set("marker", null);
@@ -120,6 +123,7 @@ function closeOtherInfo() {
     }
 }
 
+// map coordinates and view settings 
 function initMap() {
     map = new google.maps.Map(document.getElementById('map'), {
         zoom: 8,
@@ -129,8 +133,6 @@ function initMap() {
     });
     addMarkerInfo();
 }
-
-
 
 
 function validateForm() {

@@ -11,10 +11,10 @@ The idea for the website came from a group of friends who like to know what area
 
 ### Strategy
 
-The design goal was to make the relevant information accessable to the target market. I wanted users to be visually drawn to each area through the use of picturesque photographs and descriptions of the various trails and parks. 
+The design goal was to make the relevant information accessable to the target market. I wanted users to be visually drawn to each area through the use of picturesque photographs and descriptions of the various trails and parks. I used google maps to illustrate where the locations were, give some detail on each location and provided a link within each pin to bring the user directly to the relevant section of the walks page. Each section of the page or pages link back to each other so users can eaily move about the website to get the information they want. I have also provided a contact form that allows users to send in reviews of their own to be published, or to request other areas to be featured on the site. 
 
 ### Scope
-This website is for anyone interested in the outdoors, and interested in exploration of tourist areas on foot. It offers trails and walks for all ages and abilities. 
+This website is for anyone interested in the outdoors, and interested in exploration of tourist areas on foot. It offers trails and walks for all ages and abilities. It is also useful for beginners who would like to get to know the best areas for walking and the progressing onto hiking or running. Family friendly locations are also included. 
 
 ### User Stories
 1. As a outdoor enthusiast, I want access to information online on places that are suitable to walk or hike in Co. Cork. It's an area I visit a lot and have been keen to get this information in one easily accessable place. 
